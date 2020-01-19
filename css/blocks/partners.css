@@ -1,0 +1,26 @@
+.container--partners {
+  width: 880px;
+}
+
+.partners {
+  margin-bottom: 70px;
+}
+
+.partners__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+
+  margin-bottom: -37px;
+}
+
+.partners__item {
+  flex: 1;
+  flex-basis: 230px;
+
+  display: flex;
+  justify-content: center;;
+  align-items: center;
+  margin-bottom: 37px;
+}

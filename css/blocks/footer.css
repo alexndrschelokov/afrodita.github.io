@@ -1,0 +1,29 @@
+.container--footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer {
+  padding: 20px 0;
+
+  background-color: #131415;
+}
+
+.footer__text {
+  width: 248px;
+
+  font-size: 14px;
+  color: #fff;
+}
+
+.footer__text p {
+  font-family: open_sans_light;
+  color: inherit;
+}
+
+.footer__text a {
+  font-family: open_sans_bold;
+  color: inherit;
+  text-decoration: underline;
+}

@@ -1,0 +1,19 @@
+.features {
+  background: #131415;
+  padding: 40px 0;
+}
+
+.features__list {
+  display: flex;
+  justify-content: center;
+  align-content: flex-start;
+}
+
+.features__item {
+  flex-basis: 200px;
+  margin-right: 70px;
+}
+
+.features__item:last-child {
+  margin-right: 0;
+}

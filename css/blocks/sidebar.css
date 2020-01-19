@@ -1,0 +1,38 @@
+.sidebar {
+  width: 15.095%;
+}
+
+.sidebar__title {
+  margin-bottom: 5px;
+
+  font-family: open_sans_bold;
+  color: #221f1f;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.sidebar__subtitle {
+  margin-bottom: 20px;
+  
+  font-family: open_sans_bold;
+  color: #656464;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.sidebar__item {
+  margin-bottom: 20px;
+}
+
+.sidebar__item:last-child {
+  margin-bottom: 0;
+}
+
+.sidebar__img {
+  max-width: 160px;
+}
+
+.sidebar__img-pic {
+  max-width: 100%;
+  display: block;
+}

@@ -1,0 +1,25 @@
+.separator {
+  padding: 30px 0;
+  margin-bottom: 55px;
+
+  background: url(../../img/decor/pattern.png) left top repeat;
+  background-color: #131415;
+}
+
+.separator__text {
+  margin: 0 auto;
+  width: 700px;
+}
+
+.separator__text p {
+  font-family: open_sans_light;
+  color: #fff;
+  font-size: 18px;
+  line-height: 1.55;
+}
+
+.separator__text a {
+  font-family: open_sans_bold;
+  color: #f89513;
+  font-family: 18px;
+}

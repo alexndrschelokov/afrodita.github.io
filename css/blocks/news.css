@@ -1,0 +1,37 @@
+.news__avatar {
+  width: 18.19%;
+}
+
+.news__img {
+  max-width: 160px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.news__img-pic {
+  max-width: 100%;
+  display: block;
+}
+
+.news__info {
+  width: 79.55%;
+}
+
+.news__data {
+  font-size: 14px;
+  font-family: roboto_light;
+  color: #656464;
+}
+
+.news__title {
+  font-size: 18px;
+  font-family: roboto_bold;
+  color: #221f1f;
+  margin-bottom: 3px; 
+}
+
+.news__desc {
+  font-size: 18px;
+  font-family: roboto_light;
+  color: #221f1f;
+}

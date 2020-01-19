@@ -1,0 +1,11 @@
+.header {
+  background: #131415;
+  padding: 20px 0;
+  margin-bottom: 40px;
+}
+
+.container--header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

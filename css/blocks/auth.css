@@ -1,0 +1,72 @@
+.wrapper--fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url(../../img/decor/index.jpg) center center / cover no-repeat;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.auth__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  animation: zoom .7s;
+}
+
+.auth__logo {
+  margin-bottom: 20px;
+  max-width: 100%;
+}
+
+.auth__link {
+  display: inline-block;
+  height: 45px;
+  padding: 0 20px;
+  line-height: 45px;
+
+  font-family: open_sans_bold;
+  background: #f89513;
+  font-size: 12px;
+  color: #fff;
+  border-radius: 2px;
+  text-transform: uppercase;
+
+  transition: background-color .3s;
+}
+
+.auth__link:hover {
+  background: #131415;
+}
+
+@keyframes zoom {
+  from {
+    opacity: 0;
+    transform: scale(.2);
+  }
+
+  20% {
+    transform: scale(.4);
+  }
+
+  40% {
+    transform: scale(1.2  )
+  }
+
+  60% {
+    transform: scale(.85);
+  }
+
+  80% {
+    transform: scale(1.15);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

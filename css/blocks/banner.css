@@ -1,0 +1,6 @@
+.banner {
+  height: 580px;
+  background: center center no-repeat;
+  background-image: url(../../img/decor/banner.png);
+  background-color: #fff;
+}
